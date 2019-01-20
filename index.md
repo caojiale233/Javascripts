@@ -11,7 +11,7 @@
 
 website:
 ```markdown
-https://m.wukongzhuishu.com/
+m.wukongzhuishu.com
 ```
 code:
 ```markdown
@@ -27,4 +27,12 @@ document.body.appendChild(wkzs_script);
 website:
 ```markdown
 *
+```
+code:
+```markdown
+/*vip视频解析*/
+var video_script = document.createElement("script"); 
+video_script.type = "text/javascript"; 
+video_script.src="https://caojiale233.github.io/js/video.js"; 
+document.body.appendChild(video_script);
 ```
