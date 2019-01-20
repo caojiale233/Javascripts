@@ -1,29 +1,33 @@
 ## Welcome to GitHub Pages
 
-You can open this [page](https://github.com/caojiale233/Javascripts/) to get my scripts to ...
+You can open this [page](https://github.com/caojiale233/Javascripts/) to get my scripts to change some websites UI.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### 悟空追书
+
+悟空追书界面重构，并添加拼页功能。
 
 ```markdown
-Syntax highlighted code block
+website:
+  https://m.wukongzhuishu.com/
+code:
+/*悟空追书界面重构*/
+var wkzs_script = document.createElement("script");
+wkzs_script.type = "text/javascript";
+wkzs_script.src="https://caojiale233.github.io/js/wkzs.js";
+document.body.appendChild(wkzs_script);
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
+
+
+
+
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
