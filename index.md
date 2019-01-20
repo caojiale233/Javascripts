@@ -14,31 +14,9 @@ website:
 https://m.wukongzhuishu.com/
 ```
 code:
-/*悟空追书界面重构*/
 ```markdown
+/*悟空追书界面重构*/
 var wkzs_script = document.createElement("script");
 wkzs_script.type = "text/javascript";
 wkzs_script.src="https://caojiale233.github.io/js/wkzs.js";
 document.body.appendChild(wkzs_script);
-
-
-
-
-
-
-
-
-
-
-
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/caojiale233/Javascripts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
