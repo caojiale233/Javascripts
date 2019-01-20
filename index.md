@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can open this page](https://github.com/caojiale233/Javascripts/) to get my scripts to ...
+You can open this [page](https://github.com/caojiale233/Javascripts/) to get my scripts to ...
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
