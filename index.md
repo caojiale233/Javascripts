@@ -18,7 +18,7 @@ code:
 /*悟空追书界面重构*/
 var wkzs_script = document.createElement("script");
 wkzs_script.type = "text/javascript";
-wkzs_script.src="https://caojiale233.github.io/js/wkzs.js";
+wkzs_script.src="https://caojiale233.github.io/Javascripts/js/wkzs.js";
 document.body.appendChild(wkzs_script);
 ```
 ----
@@ -34,6 +34,6 @@ code:
 /*vip视频解析*/
 var video_script = document.createElement("script"); 
 video_script.type = "text/javascript"; 
-video_script.src="https://caojiale233.github.io/js/video.js"; 
+video_script.src="https://caojiale233.github.io/Javascripts/js/video.js"; 
 document.body.appendChild(video_script);
 ```
