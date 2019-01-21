@@ -19,7 +19,6 @@ name:all + "ODFLV",url:"http://aikan-tv.com/?url="
 name:all + "无名小站",url:"http://www.wmxz.wang/video.php?url="
 } ];
 //create List
-function createSelect (apis) {
 	var myul = document.createElement("ul");
 	myul.id = "myul";
 	for (var i = 0; i < apis.length; i ++) {
@@ -35,11 +34,8 @@ function createSelect (apis) {
 		myul.appendChild(myli);
 	}
 	document.body.appendChild(myul);
-}
-
 //create switch
 var $switch=false;
-function createMenu(){
 	var $newStyle=document.createElement("style");
 	$newStyle.innerHTML="._icons{float:left;width:5vw;height:5vw;font-size:2.5vw;color:rgba(255,255,255,0.73);line-height:5vw;text-align:center;border-radius:100%;box-shadow:0 0 3px #a9a9a9;margin:3.78vw 2.1vw}.you{background:#2196f3}.ten{background:#4caf50}.all{background:#f44336}._list{font-size:4.2vw;width:33.6vw;line-height:12.6vw;border-radius:2vw;color:black;border-bottom:1px solid rgba(0,0,0,0.3);overflow:hidden;text-overflow:hidden}._list:hover{background:rgba(0,0,0,0.9);color:#fff}#myul{background:#fff;box-shadow:0 1px 10px rgba(0,0,0,0.2);margin:0;padding:0 1vw;position:fixed;bottom:33vh;right:6vw;z-index:99999;height:0vh;overflow:scroll;transition:height .3s;border-radius:1.26vw}#myBtn{width:15vw;height:15vw;position:fixed;bottom:20vh;right:10vw;z-index:100000;border-radius:100%;box-shadow:2px 2px 15px rgba(0,0,0,0.5);background:#fff}._btnImg{width:50%;margin:25%;height:50%;transition:transform .3s;transform:rotate(-45deg)}";
 	document.body.appendChild($newStyle);
@@ -58,5 +54,4 @@ function createMenu(){
 		$switch=!$switch;
 	}
 	document.body.appendChild(myBtn);
-}
 }
