@@ -59,3 +59,4 @@ function createMenu(){
 	}
 	document.body.appendChild(myBtn);
 }
+}
