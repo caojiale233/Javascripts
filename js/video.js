@@ -1,27 +1,25 @@
-var youku = '<span style="display:block;float:left;width:5vw;height:5vw;font-size:2.5vw;color:#fff;line-height:5vw;text-align:center;border-radius:100%;box-shadow:0px 0px 3px #a9a9a9;background:#0078FF;margin:3.78vw 2.1vw;">优</span>'
+var youku = '<span class="_icons">优</span>'
 
-var qq = '<span style="display:block;float:left;width:5vw;height:5vw;font-size:2.5vw;color:#fff;line-height:5vw;text-align:center;border-radius:100%;box-shadow:0px 0px 3px #a9a9a9;background:#0078FF;margin:3.78vw 2.1vw;">腾</span>'
+var qq = '<span class="_icons">腾</span>'
 
-var nothing = '<span style="display:block;float:left;width:5vw;height:5vw;font-size:2.5vw;color:#fff;line-height:5vw;text-align:center;border-radius:100%;box-shadow:0px 0px 3px #a9a9a9;background:transparent;margin:3.78vw 2.1vw;">综</span>'
+var all = '<span class="_icons">综</span>'
 
 var apis = [{
-name:nothing + "百域学院",url:"http://api.baiyug.cn/vip/index.php?url=",title:"杞湀鍦堝氨鎹㈢嚎璺�"
+name:all + "百域学院",url:"http://api.baiyug.cn/vip/index.php?url="
 },{
-name:youku + "搜你妹",url:"http://www.sonimei.cn/?url=",title:"缁煎悎鎺ュ彛"
+name:youku + "搜你妹",url:"http://www.sonimei.cn/?url="
 },{
-name:nothing + "石云",url:"https://jiexi.071811.cc/jx.php?url=",title:"鎵嬪姩鐐规挱鏀�"
+name:all + "石云",url:"https://jiexi.071811.cc/jx.php?url="
 },{
-name:nothing + "无名小站",url:"http://www.sfsft.com/admin.php?url=",title:"鏃犲悕灏忕珯鍚屾簮"
+name:all + "无名小站",url:"http://www.sfsft.com/admin.php?url="
 }, {
-name:nothing + "VIP看看",url:"http://q.z.vip.totv.72du.com/?url=",title:"鏇存崲绾胯矾鎴愬姛鐜囦細鎻愰珮"
+name:all + "VIP看看",url:"http://q.z.vip.totv.72du.com/?url="
 },{
-name:nothing + "ODFLV",url:"http://aikan-tv.com/?url=",title:"涓嶇ǔ瀹氾紝骞垮憡杩囨护杞欢鍙兘鏈夊奖鍝�"
+name:all + "ODFLV",url:"http://aikan-tv.com/?url="
 },{
-name:nothing + "无名小站",url:"http://www.wmxz.wang/video.php?url=",title:"杞湀鍦堝氨鎹㈢嚎璺�"
+name:all + "无名小站",url:"http://www.wmxz.wang/video.php?url="
 } ];
-
-
-//娣诲姞閾炬帴
+//create
 function createSelect (apis) {
 	var myul = document.createElement("ul");
 	myul.id = "myul";
@@ -47,8 +45,11 @@ function createSelect (apis) {
 	document.body.appendChild(myul);
 }
 
-//鍞ゅ嚭鑿滃崟
+//
 function createMenu(){
+	var $newStyle=document.createElement("style");
+	$newStyle.innerHTML="_icons{display:block;float:left;width:5vw;height:5vw;font-size:2.5vw;color:#fff;line-height:5vw;text-align:center;border-radius:100%;box-shadow:0px 0px 3px #a9a9a9;background:#0078FF;margin:3.78vw 2.1vw;}"
+	document.body.appendChild($newStyle);
 	var myBtn = document.createElement("div");
 	myBtn.id = "myBtn";
 	myBtn.innerHTML = "+";
