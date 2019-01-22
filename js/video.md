@@ -56,3 +56,17 @@ css:
 a{display:none !important;}
 ```
 -----------------
+### 5.
+website:
+```markdown
+odflv.com
+```
+js:
+```markdown
+document.querySelector("iframe").contentWindow.document.querySelector("video").src
+```
+css:
+```markdown
+a{display:none !important;}
+```
+-----------------
