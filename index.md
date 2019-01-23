@@ -33,3 +33,17 @@ video_script.type = "text/javascript";
 video_script.src="https://caojiale233.github.io/Javascripts/js/video.js"; 
 document.body.appendChild(video_script);
 ```
+### 百度除推广广告
+去除百度搜索结果中的推广广告
+
+website:
+```markdown
+baidu.com
+```
+code:
+```markdown
+var baidu_script = document.createElement("script"); 
+baidu_script.type = "text/javascript"; 
+baidu_script.src="https://caojiale233.github.io/Javascripts/js/baidu.js"; 
+document.body.appendChild(baidu_script);
+```
