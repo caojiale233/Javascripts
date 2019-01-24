@@ -1,4 +1,4 @@
-window.onload=function(){
+//window.onload=function(){
   var $elements=document.querySelectorAll(".ec-tuiguang");
   for(var $i=0;$i<$elements.length;$++){
     alert($i);
@@ -7,4 +7,4 @@ window.onload=function(){
       document.querySelector("#results").removeChild($elements[$i].parentNode.parentNode.parentNode.parentNode.parentNode.parentNode.parentNode)
     }
   }
-}
+//}
