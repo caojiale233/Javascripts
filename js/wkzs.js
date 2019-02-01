@@ -36,6 +36,15 @@ $DQS("#_menuImg1").style.transform="rotate(0deg)";
 $DQS("#_menuImg2").style.transform="rotate(0deg)";
 $DQS("#_menuImg3").style.transform="rotate(0deg)";
 }
+var $setting=false,$source=false;
+function $tool($S){
+if($S==1){location.href="https://m.wukongzhuishu.com/";}
+if($S==2){$DQS("#pb_mulu").click();}
+if($S==3){if($source){$DQS(".ptm-card").style.display="none"}else{$DQS(".ptm-card").style.display="block";alert("警告！\n换源之后拼页可能无法使用且需要回目录重新选择章节")}$source=!$source;}
+if($S==4){if($setting){$DQS("#_setting").style.left="-100vw";}else{$DQS("#_setting").style.left="calc(15vw - 30px)";}$setting=!$setting;}
+if($S==5){$DQS("#_body").style.display="none";}
+}
+}
 if(!localStorage.titleSize){localStorage.titleSize="25";localStorage.textSize="20";localStorage.bgColor="#dddddd";localStorage.textColor="#ffffff";}
 function $load(){
 var $style=document.createElement("style");
@@ -66,13 +75,4 @@ $src=$src.slice(0,$src.lastIndexOf("/")+1)+(parseInt($src.slice($src.lastIndexOf
 $loaded=false;
 $listener++;
 window.open($src,'iframe','');
-}
-var $setting=false,$source=false;
-function $tool($S){
-if($S==1){location.href="https://m.wukongzhuishu.com/";}
-if($S==2){$DQS("#pb_mulu").click();}
-if($S==3){if($source){$DQS(".ptm-card").style.display="none"}else{$DQS(".ptm-card").style.display="block";alert("警告！\n换源之后拼页可能无法使用且需要回目录重新选择章节")}$source=!$source;}
-if($S==4){if($setting){$DQS("#_setting").style.left="-100vw";}else{$DQS("#_setting").style.left="calc(15vw - 30px)";}$setting=!$setting;}
-if($S==5){$DQS("#_body").style.display="none";}
-}
 }
