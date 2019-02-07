@@ -1,5 +1,5 @@
 var $exist;
-var patt=new RegExp("^[A-z]+://[A-z]+.[A-z]+.com/[A-z]+/[0-9]+.html");
+var patt=new RegExp("^[A-z]+://[A-z]+.[A-z]+.com/[A-z]+/[A-z]*[0-9]+.html");
 if(patt.test(location.href)&&$exist==undefined){
     $exist=true;
  var $css=document.createElement('style');
