@@ -70,9 +70,7 @@ function $windowLoaded(){
 }
 function loadIframe(){
 $DQS("#textArea").removeChild($DQS("._notOK"));
-var $src=$DQS("iframe").contentWindow.location.href;
-$src=$src.slice(0,$src.lastIndexOf("/")+1)+(parseInt($src.slice($src.lastIndexOf("/")+1,$src.lastIndexOf(".")))+1)+".html";
+$DQS("iframe").contentWindow.document.querySelector("#pb_next").click();
 $loaded=false;
 $listener++;
-window.open($src,'iframe','');
 }
