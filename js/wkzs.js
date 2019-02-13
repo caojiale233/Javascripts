@@ -14,8 +14,24 @@ if(patt.test(location.href)&&$exist==undefined){
 function $DQS($E,$A){
 if($A){return document.querySelectorAll($E);}else{return document.querySelector($E);}
 }
-var $menu=true;
-function $switch(){if($menu){$showMenu();}else{$hideMenu();}$menu=!$menu;}
+var timer=true;
+function $switch(){
+if(timer){
+  timer=false;
+  setTimeout(function (){
+   if(!timer){
+    if($menu){$showMenu();}else{$hideMenu();}$menu=!$menu;
+    }
+    timer=true;
+   },200);
+ }else{
+  document.querySelector("iframe").style.display="block";
+	 document.querySlector("iframe").style.opacity=prompt("opacity");
+  timer=true;
+ }
+}
+	var $menu=true;
+
 function $showMenu(){
 $DQS("#_tool1").style.left="0";
 $DQS("#_tool2").style.top="0";
