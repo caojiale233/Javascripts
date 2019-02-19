@@ -1,6 +1,5 @@
 ## Welcome to GitHub Pages
-针对一些特别恶心的网站
-在这里，你可以获取我的所有脚本。
+针对一些网站进行修改
 ### 悟空追书
 悟空追书界面重构，并添加拼页功能。
 
@@ -46,4 +45,19 @@ var baidu_script = document.createElement("script");
 baidu_script.type = "text/javascript"; 
 baidu_script.src="https://caojiale233.github.io/Javascripts/js/baidu.js"; 
 document.body.appendChild(baidu_script);
+```
+### HUT教务系统适配手机
+HUT的强智教务系统适配手机
+并增加记住密码和记住账号功能
+
+website:
+```markdown
+略
+```
+code:
+```markdown
+var hut_script = document.createElement("script"); 
+hut_script.type = "text/javascript"; 
+hut_script.src="https://caojiale233.github.io/Javascripts/js/hut.js"; 
+document.body.appendChild(hut_script);
 ```
