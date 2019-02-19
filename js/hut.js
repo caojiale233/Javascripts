@@ -1,4 +1,6 @@
-if(navigator.userAgent.match("Android")){
+var loaded;
+if(navigator.userAgent.match("Android")&&!loaded){loaded=true;
+	
 var newCss;
 if(document.title.match("登录")){
 //Login Section Start
