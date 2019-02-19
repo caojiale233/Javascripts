@@ -1,3 +1,4 @@
+if(navigator.userAgent.match("Android")){
 var newCss;
 if(document.title.match("登录")){
 //Login Section Start
@@ -64,3 +65,4 @@ newCss="body{width:100vw;overflow:hidden}.leftsidebar{left:-100vw}#mainNorthPanl
 var newStyle=document.createElement("style");
 newStyle.innerHTML=newCss;
 document.body.appendChild(newStyle);
+}
