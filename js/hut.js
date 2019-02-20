@@ -5,7 +5,7 @@ var newCss;
 if(document.title.match("登录")){
 //Login Section Start
 document.querySelectorAll('.input_li')[2].innerHTML+="<label style='margin-left: 30vw;'><input type='checkbox' class='autoLogin'>记住密码</label>";
-window.onload=function (){
+function load(){
 	if(localStorage.userName){
 		document.querySelector('#userAccount').value=localStorage.userName;
 	}
@@ -13,7 +13,8 @@ window.onload=function (){
 		document.querySelector('.autoLogin').checked=true;
 		document.querySelector('#userPassword').value=localStorage.userPassword;
 	}
-}
+}load();
+	
 document.querySelector('#userAccount').addEventListener("change",function(){
 	localStorage.userName=this.value;
 });
