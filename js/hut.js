@@ -36,15 +36,15 @@ document.querySelector("#onesidebar").onmouseout=function (){setTimeout(function
 var menuSwitch=false;
 btn1.addEventListener("click",function (){
 	if(menuSwitch){
+		$("#onesidebar").css("left","-45vw");
 		$("#btn1_1").css({"top":"1.75vw","transform":"rotate(0deg)"});
 		$("#btn1_2").css("transform","rotate(0deg)");
 		$("#btn1_3").css({"top":"7.25vw","transform":"rotate(0deg)"});
-		$("#onesidebar").css("left","-45vw");
 	}else{
+		$("#onesidebar").css("left","0");
 		$("#btn1_1").css({"top":"4.5vw","transform":"rotate(135deg)"});
 		$("#btn1_2").css("transform","rotate(45deg)");
 		$("#btn1_3").css({"top":"4.5vw","transform":"rotate(135deg)"});
-		$("#onesidebar").css("left","0");
 	}menuSwitch=!menuSwitch;
 });
 var plusSwitch=false;
