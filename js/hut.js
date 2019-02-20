@@ -1,5 +1,10 @@
 var loaded;
-if(navigator.userAgent.match("Android")&&!loaded){loaded=true;
+if(navigator.userAgent.match("Android")&&!loaded){
+loaded=true;
+var meta=document.createElement("meta");
+meta.name="viewport";
+meta.content="width=720,inital-scale=1.0,user-scalable=no;";
+document.head.appendChild(meta);
 var newCss;
 if(document.title.match("登录")){
 //Login Section Start
