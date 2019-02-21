@@ -1,5 +1,7 @@
-## Welcome to GitHub Pages
-针对一些网站进行修改
+## Welcome to GitHub Pages 
+## >> ToolJS
+通过注入脚本来修改一些网页
+只测试了via浏览器
 ### 悟空追书
 悟空追书界面重构，并添加拼页功能。
 
@@ -12,12 +14,12 @@ code:
 /*悟空追书界面重构*/
 var wkzs_script = document.createElement("script");
 wkzs_script.type = "text/javascript";
-wkzs_script.src="https://caojiale233.github.io/Javascripts/js/wkzs.js";
+wkzs_script.src="https://caojiale233.github.io/ToolJS/js/wkzs.js";
 document.body.appendChild(wkzs_script);
 ```
 ----
 ----
-### VIP视频解析
+### VIP视频解析(未完工)
 调用其他网站接口来解析各大视频网站资源，资源界面可能会含有大量广告，并且视频内也会有部分广告(解析网站的广告)
 
 website:
@@ -29,7 +31,7 @@ code:
 /*vip视频解析*/
 var video_script = document.createElement("script"); 
 video_script.type = "text/javascript"; 
-video_script.src="https://caojiale233.github.io/Javascripts/js/video.js"; 
+video_script.src="https://caojiale233.github.io/ToolJS/js/video.js"; 
 document.body.appendChild(video_script);
 ```
 ### 百度除推广广告
@@ -52,12 +54,12 @@ HUT的强智教务系统适配手机
 
 website:
 ```markdown
-略
+一串ip地址
 ```
 code:
 ```markdown
 var hut_script = document.createElement("script"); 
 hut_script.type = "text/javascript"; 
-hut_script.src="https://caojiale233.github.io/Javascripts/js/hut.js"; 
+hut_script.src="https://caojiale233.github.io/ToolJS/js/hut.js"; 
 document.body.appendChild(hut_script);
 ```
