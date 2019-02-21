@@ -25,7 +25,7 @@ document.querySelector('#userAccount').addEventListener("change",function(){
 document.querySelector('.login_btn').addEventListener("click",function(){
 	if(document.querySelector('.autoLogin').checked){localStorage.userPassword=document.querySelector('#userPassword').value;}else{localStorage.userPassword=undefined}
 });
-newCss=".box_right{margin:0 auto;margin-top:5vh;}.box_left{float:none;}.input_li:nth-child(6){display:none;}";
+newCss=".box_right{margin:0 auto;margin-top:5vh;}.box_left{float:none;}";
 //Login Section End
 }else{
 //Main Section Start
