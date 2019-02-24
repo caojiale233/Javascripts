@@ -34,6 +34,8 @@ video_script.type = "text/javascript";
 video_script.src="https://caojiale233.github.io/ToolJS/js/video.js"; 
 document.body.appendChild(video_script);
 ```
+----
+----
 ### 百度重定向加除广告
 去除百度搜索结果中的推广广告
 
@@ -51,6 +53,8 @@ baidu_script.type = "text/javascript";
 baidu_script.src="https://caojiale233.github.io/Javascripts/js/baidu.js"; 
 document.body.appendChild(baidu_script);
 ```
+----
+----
 ### 百度云电脑界面适配手机
 百度云的电脑版界面有更多的功能
 此脚本修改样式达到适配手机的效果
@@ -68,6 +72,8 @@ bdy_script.type = "text/javascript";
 bdy_script.src="https://caojiale233.github.io/Javascripts/js/baiduNetdisk.js"; 
 document.body.appendChild(bdy_script);
 ```
+----
+----
 ### HUT教务系统适配手机
 HUT的强智教务系统适配手机
 并增加记住密码和记住账号功能
