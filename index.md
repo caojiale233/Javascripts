@@ -34,8 +34,10 @@ video_script.type = "text/javascript";
 video_script.src="https://caojiale233.github.io/ToolJS/js/video.js"; 
 document.body.appendChild(video_script);
 ```
-### 百度除推广广告
+### 百度重定向加除广告
 去除百度搜索结果中的推广广告
+
+自动添加-baijiahao搜索规则并重定向至简版百度
 
 website:
 ```markdown
