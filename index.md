@@ -45,6 +45,7 @@ website:
 ```
 code:
 ```markdown
+/*百度重定向*/
 var baidu_script = document.createElement("script"); 
 baidu_script.type = "text/javascript"; 
 baidu_script.src="https://caojiale233.github.io/Javascripts/js/baidu.js"; 
@@ -61,6 +62,7 @@ pan.baidu.com
 ```
 code:
 ```markdown
+/*百度云界面修改*/
 var bdy_script = document.createElement("script"); 
 bdy_script.type = "text/javascript"; 
 bdy_script.src="https://caojiale233.github.io/Javascripts/js/baiduNetdisk.js"; 
@@ -76,6 +78,7 @@ website:
 ```
 code:
 ```markdown
+/*废物强智教务系统*/
 var hut_script = document.createElement("script"); 
 hut_script.type = "text/javascript"; 
 hut_script.src="https://caojiale233.github.io/ToolJS/js/hut.js"; 
