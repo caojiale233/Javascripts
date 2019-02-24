@@ -50,7 +50,7 @@ code:
 /*百度重定向*/
 var baidu_script = document.createElement("script"); 
 baidu_script.type = "text/javascript"; 
-baidu_script.src="https://caojiale233.github.io/Javascripts/js/baidu.js"; 
+baidu_script.src="https://caojiale233.github.io/ToolJS/js/baidu.js"; 
 document.body.appendChild(baidu_script);
 ```
 ----
@@ -69,7 +69,7 @@ code:
 /*百度云界面修改*/
 var bdy_script = document.createElement("script"); 
 bdy_script.type = "text/javascript"; 
-bdy_script.src="https://caojiale233.github.io/Javascripts/js/baiduNetdisk.js"; 
+bdy_script.src="https://caojiale233.github.io/ToolJS/js/baiduNetdisk.js"; 
 document.body.appendChild(bdy_script);
 ```
 ----
