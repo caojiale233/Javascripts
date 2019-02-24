@@ -24,7 +24,7 @@ document.body.appendChild(wkzs_script);
 
 website:
 ```markdown
-*
+全部网站
 ```
 code:
 ```markdown
@@ -41,7 +41,7 @@ document.body.appendChild(video_script);
 
 website:
 ```markdown
-baidu.com
+全部网页/m.baidu.com
 ```
 code:
 ```markdown
@@ -49,6 +49,22 @@ var baidu_script = document.createElement("script");
 baidu_script.type = "text/javascript"; 
 baidu_script.src="https://caojiale233.github.io/Javascripts/js/baidu.js"; 
 document.body.appendChild(baidu_script);
+```
+### 百度云电脑界面适配手机
+百度云的电脑版界面有更多的功能
+此脚本修改样式达到适配手机的效果
+但是不能下载东西 因为电脑模式下载默认调用电脑上的百度云
+
+website:
+```markdown
+pan.baidu.com
+```
+code:
+```markdown
+var bdy_script = document.createElement("script"); 
+bdy_script.type = "text/javascript"; 
+bdy_script.src="https://caojiale233.github.io/Javascripts/js/baiduNetdisk.js"; 
+document.body.appendChild(bdy_script);
 ```
 ### HUT教务系统适配手机
 HUT的强智教务系统适配手机
