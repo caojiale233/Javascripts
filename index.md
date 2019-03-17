@@ -90,3 +90,24 @@ hut_script.type = "text/javascript";
 hut_script.src="https://caojiale233.github.io/ToolJS/js/hut.js"; 
 document.body.appendChild(hut_script);
 ```
+----
+----
+### 超星尔雅平台慕课
+自动播放下一个视频
+通过覆盖视频避免触发鼠标事件，达到移出鼠标不暂停的效果
+自动答题功能正在完善，暂时不可用，但是使用新添加的播放键可无视题目直接继续播放
+纯手工刷课，不会产生不良记录
+
+website:
+```markdown
+例:mooc1.hut.edu.cn
+不同学校域名可能不同
+```
+code:
+```markdown
+/*学习通刷课*/
+var chaoxing_script = document.createElement("script"); 
+chaoxing_script.type = "text/javascript"; 
+chaoxing_script.src="https://caojiale233.github.io/ToolJS/js/chaoxingMOOC.js"; 
+document.body.appendChild(chaoxing_script);
+```
