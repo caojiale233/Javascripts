@@ -130,7 +130,7 @@ m.laimanhua.com
 ```
 code:
 ```markdown
-/*悟空追书界面重构*/
+/*来漫画*/
 var laimanhua_script = document.createElement("script");
 laimanhua_script.type = "text/javascript";
 laimanhua_script.src="https://caojiale233.github.io/ToolJS/js/laimanhua.js";
