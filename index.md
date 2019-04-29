@@ -16,6 +16,7 @@ var wkzs_script = document.createElement("script");
 wkzs_script.type = "text/javascript";
 wkzs_script.src="https://caojiale233.github.io/ToolJS/js/wkzs.js";
 document.body.appendChild(wkzs_script);
+/*end*/
 ```
 ----
 ----
@@ -33,6 +34,7 @@ var video_script = document.createElement("script");
 video_script.type = "text/javascript"; 
 video_script.src="https://caojiale233.github.io/ToolJS/js/video.js"; 
 document.body.appendChild(video_script);
+/*end*/
 ```
 ----
 ----
@@ -52,6 +54,7 @@ var baidu_script = document.createElement("script");
 baidu_script.type = "text/javascript"; 
 baidu_script.src="https://caojiale233.github.io/ToolJS/js/baidu.js"; 
 document.body.appendChild(baidu_script);
+/*end*/
 ```
 ----
 ----
@@ -71,6 +74,7 @@ var bdy_script = document.createElement("script");
 bdy_script.type = "text/javascript"; 
 bdy_script.src="https://caojiale233.github.io/ToolJS/js/baiduNetdisk.js"; 
 document.body.appendChild(bdy_script);
+/*end*/
 ```
 ----
 ----
@@ -89,6 +93,7 @@ var hut_script = document.createElement("script");
 hut_script.type = "text/javascript"; 
 hut_script.src="https://caojiale233.github.io/ToolJS/js/hut.js"; 
 document.body.appendChild(hut_script);
+/*end*/
 ```
 ----
 ----
@@ -110,4 +115,25 @@ var chaoxing_script = document.createElement("script");
 chaoxing_script.type = "text/javascript"; 
 chaoxing_script.src="https://caojiale233.github.io/ToolJS/js/chaoxingMOOC.js"; 
 document.body.appendChild(chaoxing_script);
+/*end*/
+```
+----
+----
+### 来漫画
+来漫画整章滚动阅读
+重构界面
+广告未去除
+
+website:
+```markdown
+m.laimanhua.com
+```
+code:
+```markdown
+/*悟空追书界面重构*/
+var laimanhua_script = document.createElement("script");
+laimanhua_script.type = "text/javascript";
+laimanhua_script.src="https://caojiale233.github.io/ToolJS/js/laimanhua.js";
+document.body.appendChild(laimanhua_script);
+/*end*/
 ```
