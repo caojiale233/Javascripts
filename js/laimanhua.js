@@ -1,5 +1,5 @@
 var loaded;
-if(!loaded){loaded=true;
+if(!loaded&&location.href.match("html")){loaded=true;
 function $($_$,$__$){
 if($__$){
 return document.querySelectorAll($_$)[$__$];
