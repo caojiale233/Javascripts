@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages 
 ## >> ToolJS
 通过注入脚本来修改一些网页
-只测试了via浏览器
+手机上只测试了via浏览器
 ### 悟空追书
 悟空追书界面重构，并添加拼页功能。
 
@@ -20,9 +20,10 @@ document.body.appendChild(wkzs_script);
 ```
 ----
 ----
-### VIP视频解析(未完工)
-调用其他网站接口来解析各大视频网站资源，资源界面可能会含有大量广告，并且视频内也会有部分广告(解析网站的广告)
+### VIP视频解析(暂时停工)
+调用其他网站接口来解析各大视频网站资源，资源界面可能会含有大量广告，并且视频内也会有部分广告(解析网站的广告)，同时需要配合带资源嗅探功能的浏览器使用。
 
+未完成工作：直接从全是广告的解析界面中抽出视频链接；判断是否已调用，避免重复被调用。
 website:
 ```markdown
 全部网站
@@ -43,6 +44,8 @@ document.body.appendChild(video_script);
 
 自动添加-baijiahao搜索规则并重定向至简版百度
 
+(太久没测试，我也不知道有没有失效)
+
 website:
 ```markdown
 全部网页/m.baidu.com
@@ -61,7 +64,7 @@ document.body.appendChild(baidu_script);
 ### 百度云电脑界面适配手机
 百度云的电脑版界面有更多的功能
 此脚本修改样式达到适配手机的效果
-但是不能下载东西 因为电脑模式下载默认调用电脑上的百度云
+但是不能下载东西 电脑模式下网站会调用电脑的百度云下载(结果当然是什么也没调用到)
 
 website:
 ```markdown
@@ -78,9 +81,9 @@ document.body.appendChild(bdy_script);
 ```
 ----
 ----
-### HUT教务系统适配手机
-HUT的强智教务系统适配手机
-并增加记住密码和记住账号功能
+### HUT教务系统修改
+HUT的强智教务系统大致能适配手机
+并增加记住密码和记住账号功能，省得重复输入
 
 website:
 ```markdown
@@ -88,7 +91,7 @@ website:
 ```
 code:
 ```markdown
-/*废物强智教务系统*/
+/*强智教务系统*/
 var hut_script = document.createElement("script"); 
 hut_script.type = "text/javascript"; 
 hut_script.src="https://caojiale233.github.io/ToolJS/js/hut.js"; 
@@ -97,7 +100,7 @@ document.body.appendChild(hut_script);
 ```
 ----
 ----
-### 超星尔雅平台慕课
+### 超星尔雅平台慕课(已废，等下学期重做)
 自动播放下一个视频
 通过覆盖视频避免触发鼠标事件，达到移出鼠标不暂停的效果
 自动答题功能正在完善，暂时不可用，但是使用新添加的播放键可无视题目直接继续播放
@@ -122,7 +125,7 @@ document.body.appendChild(chaoxing_script);
 ### 来漫画
 来漫画整章滚动阅读
 重构界面
-广告未去除
+广告未去除(除广告要配合浏览器自带的净化功能)
 
 website:
 ```markdown
