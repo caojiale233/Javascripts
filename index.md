@@ -140,3 +140,24 @@ laimanhua_script.src="https://caojiale233.github.io/ToolJS/js/laimanhua.js";
 document.body.appendChild(laimanhua_script);
 /*end*/
 ```
+----
+----
+### 知音漫客
+整章滚动阅读
+重构界面
+没有vip这种东西了
+
+website:
+```markdown
+m.zymk.cn
+```
+code:
+```markdown
+/*知音漫客*/
+var zymk_script = document.createElement("script");
+zymk_script.type = "text/javascript";
+zymk_script.src="https://caojiale233.github.io/ToolJS/js/zymk.js";
+document.body.appendChild(zymk_script);
+/*end*/
+```
+
