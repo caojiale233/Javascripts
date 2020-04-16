@@ -125,7 +125,7 @@ document.body.appendChild(chaoxing_script);
 ### 来漫画
 来漫画整章滚动阅读
 重构界面
-广告未去除(除广告要配合浏览器自带的净化功能)
+广告部分祛除
 
 website:
 ```markdown
@@ -134,11 +134,11 @@ m.laimanhua.com
 code:
 ```markdown
 /*来漫画*/
-var laimanhua_script = document.createElement("script");
-laimanhua_script.type = "text/javascript";
-laimanhua_script.src="https://caojiale233.github.io/ToolJS/js/laimanhua.js";
-document.body.appendChild(laimanhua_script);
-/*end*/
+ var laimanhua_script = document.createElement("script");
+ laimanhua_script.type = "text/javascript";
+ laimanhua_script.src="https://caojiale233.github.io/ToolJS/js/laimanhua.js";
+ setTimeout("document.body.appendChild(laimanhua_script)",1000);
+ /*end*/
 ```
 ----
 ----
