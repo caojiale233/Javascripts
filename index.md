@@ -2,24 +2,6 @@
 ## >> ToolJS
 通过注入脚本来修改一些网页
 手机上只测试了via浏览器
-### 悟空追书
-悟空追书界面重构，并添加拼页功能。
-
-website:
-```markdown
-m.wukongzhuishu.com
-```
-code:
-```markdown
-/*悟空追书界面重构*/
-var wkzs_script = document.createElement("script");
-wkzs_script.type = "text/javascript";
-wkzs_script.src="https://caojiale233.github.io/ToolJS/js/wkzs.js";
-document.body.appendChild(wkzs_script);
-/*end*/
-```
-----
-----
 ### VIP视频解析(暂时停工)
 调用其他网站接口来解析各大视频网站资源，资源界面可能会含有大量广告，并且视频内也会有部分广告(解析网站的广告)，同时需要配合带资源嗅探功能的浏览器使用。
 
@@ -39,7 +21,7 @@ document.body.appendChild(video_script);
 ```
 ----
 ----
-### 百度重定向加除广告
+### 百度重定向加除广告(年久失修)
 去除百度搜索结果中的推广广告
 
 自动添加-baijiahao搜索规则并重定向至简版百度
@@ -61,7 +43,7 @@ document.body.appendChild(baidu_script);
 ```
 ----
 ----
-### 百度云电脑界面适配手机
+### 百度云电脑界面适配手机（年久失修）
 百度云的电脑版界面有更多的功能
 此脚本修改样式达到适配手机的效果
 但是不能下载东西 电脑模式下网站会调用电脑的百度云下载(结果当然是什么也没调用到)
