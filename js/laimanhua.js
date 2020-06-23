@@ -53,7 +53,7 @@ function createUI(){
 	var $src=document.querySelector("#manga img").src;
 	$src=$src.match(patt);
 	for(var i=10001;i<=10000+$page;i++){
-		$("#_comic").innerHTML+="<img src=\""+$src+(i+"").slice(1,5)+".jpg@!webp"+"\" class=\"_pages\"><hr>";
+		$("#_comic").innerHTML+="<img src=\""+$src+(i+"").slice(1,5)+".jpg"+"\" class=\"_pages\"><hr>";
 	}
 	$("#_comic").innerHTML+="<div onclick=\"$('#action').querySelectorAll('a')[3].click();\" style=\"width:100vw;height:10vh; background:#607D8B;color:white;font-size:3vh;line-height:10vh;text-align:center;\">下一章</div>";
 	/*菜单开关*/
